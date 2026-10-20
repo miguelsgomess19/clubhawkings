@@ -169,7 +169,7 @@ php -S localhost:8000
 
 Abra o navegador e entre no endereço:
 
-[http://localhost:8000](http://localhost:8000)
+[http://localhost:8000](http://localhost:8000/clubhawkings)
 
 **Importante:** o PHP precisa estar instalado e disponível no terminal. O Live Server, sozinho, não executa arquivos PHP. Se o projeto utilizar banco de dados, também será necessário configurar a conexão conforme os arquivos da pasta `database/`.
 
