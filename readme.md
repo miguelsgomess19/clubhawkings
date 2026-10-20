@@ -2,105 +2,195 @@
 
 > **Uma loja. Dois mundos.**
 
-O **Club Hawkings** é um projeto de site desenvolvido como parte de um **Projeto Integrador**, inspirado no universo de *Stranger Things*.
+O Club Hawkings é um projeto de site desenvolvido como parte de um Projeto Integrador, inspirado no universo de *Stranger Things*. A proposta é criar uma loja temática com identidade visual própria, reunindo elementos da série em uma experiência de navegação voltada para os fãs.
 
-A proposta é criar uma loja temática com uma identidade visual inspirada na série, oferecendo uma experiência diferente para os fãs e utilizando conceitos de desenvolvimento web aprendidos durante o curso.
+## 📑 Sumário
 
-## 📌 Sobre o projeto
+1. [Sobre o projeto](#-1-sobre-o-projeto)
+2. [Funcionalidades](#-2-funcionalidades)
+3. [Tecnologias utilizadas](#-3-tecnologias-utilizadas)
+4. [Organização dos arquivos](#-4-organização-dos-arquivos)
+5. [Identidade visual](#-5-identidade-visual)
+6. [Objetivos do projeto](#-6-objetivos-do-projeto)
+7. [Como executar](#-7-como-executar)
+8. [Desenvolvedor](#-8-desenvolvedor)
 
-O projeto foi desenvolvido com o objetivo de colocar em prática conhecimentos de **desenvolvimento web**, principalmente na criação de páginas, formulários, estilização e organização de arquivos.
+---
 
-O site possui uma identidade visual inspirada no universo de *Stranger Things*, utilizando elementos relacionados ao clima dos anos 80, ao Mundo Invertido e à estética da série.
+## 🎯 1. Sobre o projeto
+
+O **Club Hawkings** é uma loja virtual fictícia inspirada na série Stranger Things. O projeto utiliza referências ao clima dos anos 80 e ao Mundo Invertido para criar uma identidade visual que combine com a proposta da série.
+
+O desenvolvimento tem como objetivo colocar em prática os conhecimentos adquiridos durante o curso, principalmente na criação de páginas web, estilização com CSS, utilização de PHP e organização de arquivos.
 
 ### 💡 Slogan
 
-**"Uma loja. Dois mundos."**
+*Uma loja. Dois mundos.*
 
-## 🛍️ Proposta da loja
+### 🛍️ Proposta da loja
 
-A Club Hawkings funciona como uma loja temática fictícia, criada para apresentar produtos e conteúdos relacionados ao universo de *Stranger Things*.
+A ideia é desenvolver um ambiente temático que apresente produtos e conteúdos relacionados ao universo de Stranger Things, com uma interface organizada e uma navegação simples.
 
-A ideia é unir uma interface de loja com uma identidade visual marcante, tornando a navegação mais interessante e mantendo o projeto organizado e fácil de utilizar.
+O projeto também permite trabalhar conceitos de formulários, gerenciamento de usuários e envio de imagens, conforme as funcionalidades implementadas no sistema.
 
-## 🚀 Funcionalidades
+---
 
-- 🏠 Página inicial
-- 🛒 Área de produtos
-- 👤 Sistema de usuário
-- 🔐 Opção de sair/logout
-- 📝 Formulários
-- 📷 Envio de imagens através de formulário
-- 📞 Área de contato
-- 🎨 Interface temática inspirada em *Stranger Things*
-- 📱 Estrutura preparada para diferentes tamanhos de tela
-- 🧩 Organização do projeto em arquivos e pastas
+## 🚀 2. Funcionalidades
 
-## 🛠️ Tecnologias utilizadas
+O projeto conta com uma estrutura voltada para uma loja temática, incluindo:
 
-- **HTML5** — estrutura das páginas
-- **CSS3** — estilização e identidade visual
-- **PHP** — lógica e processamento das páginas
-- **Git** — controle de versões
-- **GitHub** — armazenamento e gerenciamento do projeto
-- **Visual Studio Code** — desenvolvimento do projeto
+- 🏠 Página inicial com a identidade do Club Hawkings.
+- 🛒 Área destinada aos produtos da loja.
+- 👤 Estrutura para gerenciamento de usuários.
+- 🔐 Opção de sair da conta (*logout*).
+- 📝 Formulários para entrada e envio de informações.
+- 📷 Funcionalidade de envio de imagens por formulário.
+- 📞 Área de contato.
+- 🎨 Estilização inspirada no universo de Stranger Things.
+- 📱 Organização visual pensada para diferentes tamanhos de tela.
+- 🧩 Separação de arquivos PHP, CSS, imagens e componentes reutilizáveis.
 
-## 📂 Estrutura do projeto
+As funcionalidades podem receber melhorias e novas implementações durante o desenvolvimento do projeto.
 
-A estrutura do projeto foi organizada para separar os arquivos de acordo com suas funções.
+---
+
+## 🛠️ 3. Tecnologias utilizadas
+
+| Tecnologia | Utilização |
+|---|---|
+| **HTML5** | Estrutura das páginas do site. |
+| **CSS3** | Estilização, cores, layout e identidade visual. |
+| **PHP** | Processamento das páginas e inclusão de componentes. |
+| **Git** | Controle de versões do projeto. |
+| **GitHub** | Armazenamento e compartilhamento do código. |
+| **Visual Studio Code** | Ambiente utilizado para desenvolver e editar os arquivos. |
+
+---
+
+## 📂 4. Organização dos arquivos
+
+O projeto está organizado em pastas para facilitar a localização e a manutenção dos arquivos.
 
 ```text
-projeto-integrador/
+projeto-integrador-/
+│
+├── app/
+│   └── Arquivos da aplicação
+│
+├── database/
+│   └── Arquivos relacionados ao banco de dados
+│
+├── imagens/
+│   └── Imagens utilizadas no site
 │
 ├── includes/
 │   ├── header.php
 │   └── footer.php
 │
+├── login/
+│   └── Arquivos relacionados ao login
+│
 ├── style/
 │   └── style.css
 │
-├── imagens/
-│   └── ...
+├── uploads/
+│   └── Arquivos enviados pelo sistema
 │
-├── páginas PHP
-│
-└── README.md
+├── index.php
+└── readme.md
 ```
 
-> A estrutura pode receber novos arquivos conforme o desenvolvimento do projeto.
+A estrutura pode ser ampliada conforme novas páginas e funcionalidades forem adicionadas ao projeto.
 
-## 🎨 Identidade visual
+---
 
-A identidade visual da Club Hawkings foi baseada no estilo de *Stranger Things*, utilizando uma aparência mais escura e elementos que remetem à série.
+## 🎨 5. Identidade visual
 
-O objetivo foi criar um site com uma aparência própria, mantendo a navegação simples e agradável.
+A identidade visual do Club Hawkings foi inspirada no universo de Stranger Things, com uma proposta que busca transmitir o suspense e a atmosfera característica da série.
 
-## 🎯 Objetivos do projeto
+O design procura combinar uma aparência temática com uma navegação simples, mantendo a organização das informações e a consistência entre as páginas.
 
-- Praticar desenvolvimento de sites com HTML, CSS e PHP;
-- Aplicar conceitos aprendidos em aula;
-- Desenvolver uma identidade visual para um projeto web;
-- Trabalhar com formulários e processamento de informações;
-- Aprender a organizar um projeto utilizando diferentes arquivos e pastas;
-- Utilizar o GitHub para armazenar e acompanhar o desenvolvimento do projeto.
+O slogan **“Uma loja. Dois mundos.”** representa a ligação entre o mundo real e o Mundo Invertido, que serve como referência para a proposta da loja.
 
-## 📚 Contexto acadêmico
+---
 
-Este site foi desenvolvido como parte de um **Projeto Integrador**, com o objetivo de reunir conhecimentos de diferentes conteúdos estudados durante o curso e aplicá-los em um projeto prático.
+## 📚 6. Objetivos do projeto
 
-## 👨‍💻 Desenvolvedor
+O desenvolvimento do Club Hawkings tem como objetivos:
+
+- Praticar a criação de páginas utilizando HTML e PHP.
+- Aplicar conhecimentos de CSS na construção de interfaces.
+- Desenvolver uma identidade visual para uma loja temática.
+- Trabalhar com formulários e processamento de informações.
+- Organizar arquivos e componentes de um projeto web.
+- Aprender a utilizar o Git e o GitHub no controle de versões.
+- Aplicar na prática os conteúdos estudados durante o curso.
+
+---
+
+## 💻 7. Como executar
+
+Para executar o projeto localmente, é necessário ter o PHP instalado e utilizar um servidor compatível com aplicações PHP.
+
+### Pré-requisitos
+
+- Visual Studio Code ou outro editor de código.
+- PHP instalado.
+- Git, caso queira clonar o repositório pelo terminal.
+- Navegador atualizado.
+
+### 1. Baixar o projeto
+
+Abra o terminal e execute:
+
+```bash
+git clone https://github.com/miguelsgomess19/projeto-integrador-.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd projeto-integrador-
+```
+
+### 2. Abrir no Visual Studio Code
+
+Abra a pasta `projeto-integrador-` no Visual Studio Code e confira se os arquivos estão organizados corretamente.
+
+### 3. Iniciar o servidor PHP
+
+No terminal, dentro da pasta do projeto, execute:
+
+```bash
+php -S localhost:8000
+```
+
+### 4. Acessar o site
+
+Abra o navegador e entre no endereço:
+
+[http://localhost:8000](http://localhost:8000)
+
+**Importante:** o PHP precisa estar instalado e disponível no terminal. O Live Server, sozinho, não executa arquivos PHP. Se o projeto utilizar banco de dados, também será necessário configurar a conexão conforme os arquivos da pasta `database/`.
+
+---
+
+## 👨‍💻 8. Desenvolvedor
 
 **Miguel Santos Gomes da Silva**
 
-Projeto desenvolvido para fins acadêmicos.
+Projeto desenvolvido para fins acadêmicos como parte do Projeto Integrador do curso de Desenvolvimento de Sistemas.
 
-## 📌 Status
+---
+
+## 📌 Status do projeto
 
 🚧 **Em desenvolvimento**
 
-O projeto ainda pode receber novas funcionalidades, melhorias no design e ajustes durante o desenvolvimento.
+O Club Hawkings poderá receber novas funcionalidades, melhorias no design e ajustes na estrutura conforme o avanço do projeto.
 
 ---
 
 ### 🎬 Club Hawkings
 
-**Uma loja. Dois mundos.**
+*Uma loja. Dois mundos.*
