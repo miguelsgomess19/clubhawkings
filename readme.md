@@ -147,29 +147,23 @@ Abra o terminal e execute:
 git clone https://github.com/miguelsgomess19/projeto-integrador-.git
 ```
 
-Entre na pasta do projeto:
-
-```bash
-cd projeto-integrador-
-```
-
 ### 2. Abrir no Visual Studio Code
 
-Abra a pasta `projeto-integrador-` no Visual Studio Code e confira se os arquivos estão organizados corretamente.
+Abra a pasta `documentos` no Visual Studio Code e confira se os arquivos estão organizados corretamente.
 
 ### 3. Iniciar o servidor PHP
 
 No terminal, dentro da pasta do projeto, execute:
 
 ```bash
-php -S localhost:8000
+php -S 0.0.0.0:8000
 ```
 
 ### 4. Acessar o site
 
 Abra o navegador e entre no endereço:
 
-[http://localhost:8000](http://localhost:8000)
+[http://localhost:8000](http://localhost:8000/clubhawkings)
 
 **Importante:** o PHP precisa estar instalado e disponível no terminal. O Live Server, sozinho, não executa arquivos PHP. Se o projeto utilizar banco de dados, também será necessário configurar a conexão conforme os arquivos da pasta `database/`.
 
