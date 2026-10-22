@@ -8,19 +8,28 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 $id = (int) ($_POST['id'] ?? 0);
 $quantidade = (int) ($_POST['quantidade'] ?? 1);
+$voltar = ($_POST['voltar'] ?? '') === 'carrinho'
+    ? '/clubhawkings/app/carrinho.php'
+    : '/clubhawkings/app/produtos.php';
 
 if ($id <= 0) {
     set_flash('error', 'Produto inválido.');
-    redirecionar('/clubhawkings/app/produtos.php');
+    redirecionar($voltar);
 }
 
-$resultado = comprar_produto($conexao, $id, $quantidade);
+$resultado = carrinho_adicionar($conexao, $id, $quantidade);
 
 if (!$resultado['ok']) {
     set_flash('error', $resultado['erro']);
 } else {
     $nome = $resultado['produto']['nome'] ?? 'Produto';
-    set_flash('success', "Compra realizada! $quantidade x $nome.");
+    $mensagem = "Adicionado ao carrinho: {$resultado['quantidade']} x $nome.";
+
+    if (!empty($resultado['aviso'])) {
+        $mensagem .= ' ' . $resultado['aviso'];
+    }
+
+    set_flash('success', $mensagem);
 }
 
-redirecionar('/clubhawkings/app/produtos.php');
+redirecionar($voltar);

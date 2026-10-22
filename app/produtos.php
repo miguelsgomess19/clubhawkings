@@ -39,8 +39,17 @@ $flash = get_flash();
                         <?php if ((int) $produto['estoque'] > 0): ?>
                             <form action="/clubhawkings/app/comprar.php" method="POST">
                                 <input type="hidden" name="id" value="<?= (int) $produto['id'] ?>">
-                                <input type="hidden" name="quantidade" value="1">
-                                <button type="submit">Comprar</button>
+                                <input type="hidden" name="voltar" value="produtos">
+                                <input class="qtd-input"
+                                       type="number"
+                                       name="quantidade"
+                                       value="1"
+                                       min="1"
+                                       max="<?= (int) $produto['estoque'] ?>"
+                                       step="1"
+                                       inputmode="numeric"
+                                       aria-label="Quantidade de <?= htmlspecialchars($produto['nome']) ?>">
+                                <button type="submit">Adicionar ao carrinho</button>
                             </form>
                         <?php else: ?>
                             <p class="alert alert--error">Esgotado</p>
