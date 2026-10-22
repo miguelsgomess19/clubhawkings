@@ -60,7 +60,7 @@ O site utiliza uma identidade visual inspirada em *Stranger Things*, com referê
 Clone o repositório do GitHub dentro da pasta `Documentos`:
 
 ```bash
-git clone https://github.com/miguelsgomess19/projeto-integrador-.git clubhawkings
+git clone https://github.com/miguelsgomess19/clubhawkings-.git clubhawkings
 ```
 
 ### 2. Abra o projeto no Visual Studio Code
