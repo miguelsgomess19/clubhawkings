@@ -87,7 +87,7 @@ php -S localhost:8000
 
 Abra o navegador e entre no endereço:
 
-http://localhost:8000/clubhawkings/
+http://192.168.10.36/clubhawkings/
 
 Se o arquivo `index.php` estiver na raiz da pasta do projeto, o site será carregado por esse endereço.
 
